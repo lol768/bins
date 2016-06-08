@@ -27,11 +27,15 @@ cargo uninstall bins
 cargo install
 ```
 
+## Video demo
+
+[![](https://lol768.com/i/cpRJD5heiu_-uA)](https://asciinema.org/a/48190)
+
 ## Usage
 
 To get help, use `bins -h`. bins accepts a list of multiple files, a string, or piped data.
 
-See [asciinema](https://asciinema.org/a/48190) for a demo or take a look at some of the written examples below:
+Take a look at some of the written examples below:
 
 ### Examples
 
