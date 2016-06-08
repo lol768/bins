@@ -51,7 +51,7 @@ $ bins -s gist hello.c
 https://gist.github.com/215883b109a0047fe07f5ee229de6a51
 ```
 
-bins supports pasting multiple files, too. With services such as GitHub's [gist](https://gist.github.com), these are natively supported. For services which don't support multiple file pastes, an index paste is created and returned which links to the individual pastes.
+bins supports pasting multiple files, too. With services such as GitHub's [gist](https://gist.github.com), these are natively supported. For services which don't support multiple file pastes, an index paste is created and returned which links to individual pastes for each file.
 
 ```
 $ bins -s gist hello.c goodbye.c 
@@ -65,7 +65,7 @@ http://pastie.org/private/x3u62xmyam0i8hiyas8hg
 
 ### Specifying visibility options
 
-By default, bins will use the `defaults:private` option from the config file to determine whether or not to create a private paste. The default value of this is `true` - so new pastes will be private for a fresh install. You can override this at the command line:
+By default, bins will use the `defaults.private` option from the config file to determine whether or not to create a private paste. The default value of this is `true` - so new pastes will be private for a fresh install. You can override this at the command line:
 
 ```
 $ bins --public -s gist hello.c 
