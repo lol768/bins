@@ -1,6 +1,6 @@
 # bins
 
-*A tool for pasting from the terminal.*
+*A tool for pasting from the terminal. Supports [GitHub Gist](https://gist.github.com/), [Pastebin](http://pastebin.com/), [Pastie](http://pastie.org) and [HasteBin](http://hastebin.com/).*
 
 ---
 
