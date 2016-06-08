@@ -46,7 +46,7 @@ $ echo "testing123" | bins -s gist
 https://gist.github.com/fa772739e946eefdd082547ed1ec9d2c
 ```
 
-### Creating pastes from files
+#### Creating pastes from files
 
 Pasting a single file:
 
@@ -67,7 +67,7 @@ $ bins -s pastie hello.c goodbye.c
 http://pastie.org/private/x3u62xmyam0i8hiyas8hg
 ```
 
-### Specifying visibility options
+#### Specifying visibility options
 
 By default, bins will use the `defaults.private` option from the config file to determine whether or not to create a private paste. The default value of this is `true` - so new pastes will be private for a fresh install. You can override this at the command line:
 
